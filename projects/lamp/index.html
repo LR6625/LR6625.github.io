@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>3D-scanned interactive LED lamp · Logan Riley</title>
+<meta name="description" content="A lamp sculpted from a 3D scan, with 50 addressable LEDs controlled from a web page the lamp hosts itself.">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="canonical" href="https://loganriley.ca/projects/lamp/">
+<link rel="alternate" hreflang="en" href="https://loganriley.ca/projects/lamp/">
+<link rel="alternate" hreflang="fr" href="https://loganriley.ca/fr/projects/lamp/">
+<link rel="alternate" hreflang="x-default" href="https://loganriley.ca/projects/lamp/">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@400;600;700&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&display=swap">
+<link rel="stylesheet" href="/assets/style.css?v=d66d7ac8">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header class="top">
+  <div class="wrap">
+    <a class="brand" href="/">Logan Riley</a>
+    <nav aria-label="Main"><a href="/">Home</a><a href="/projects/" aria-current="page">Projects</a><a href="/academics/">Academics</a><a href="/outreach/">Outreach</a><a href="/activities/">Activities</a><a href="/research/">Research interests</a><a href="/contact/">Contact</a></nav>
+    <div class="lang" role="group" aria-label="Language"><a href="/projects/lamp/" lang="en" hreflang="en" aria-current="true">EN</a><span class="sep" aria-hidden="true">|</span><a href="/fr/projects/lamp/" lang="fr" hreflang="fr">FR</a></div>
+  </div>
+</header>
+<main id="main"><div class="wrap">
+
+<div class="page-head">
+  <p class="eyebrow">Project · 2025</p>
+  <h1>3D-scanned interactive LED lamp</h1>
+  <p class="lead">A birthday gift for my sister, who dyes her hair often. The lamp is modelled on her head, and you can change the colour of every LED in the hair.</p>
+</div>
+<div class="split solo">
+  
+  <div>
+    <h3 style="margin-top:0">Making the model</h3>
+    <p>After my first project I wanted to try organic shapes. I made a Gaussian splat of her head, a 3D model that software estimates from hundreds of photos, then cleaned it up and sculpted the hair in Blender. The face and upper body are printed in solid white and only the hair in translucent white, so the light shows through it.</p>
+    <h3>The electronics</h3>
+    <p>There are 50 addressable LEDs in the hair, driven with FastLED. The microcontroller hosts a page over the lamp's own Wi-Fi where you set any single LED's colour or choose a preset (wave, fire, rainbow, chase). A capacitance sensor turns it on and off by touch.</p>
+  </div>
+</div>
+
+</div></main>
+<footer class="foot"><div class="wrap"><span>Logan Riley · Engineering Science, University of Toronto</span><span><a href="mailto:logan.riley@mail.utoronto.ca">logan.riley@mail.utoronto.ca</a></span></div></footer>
+<script src="/assets/site.js?v=bef6917c" defer></script>
+<script>
+if (window.matchMedia && matchMedia('(prefers-reduced-motion: reduce)').matches) {
+  document.querySelectorAll('video[autoplay]').forEach(function (v) { v.removeAttribute('autoplay'); v.pause(); v.controls = true; });
+}
+</script>
+</body>
+</html>

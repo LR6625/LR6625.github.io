@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Lampe à DEL interactive issue d’un scan 3D · Logan Riley</title>
+<meta name="description" content="Une lampe sculptée à partir d’un scan 3D, avec 50 DEL adressables commandées depuis une page web hébergée par la lampe.">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="canonical" href="https://loganriley.ca/fr/projects/lamp/">
+<link rel="alternate" hreflang="en" href="https://loganriley.ca/projects/lamp/">
+<link rel="alternate" hreflang="fr" href="https://loganriley.ca/fr/projects/lamp/">
+<link rel="alternate" hreflang="x-default" href="https://loganriley.ca/projects/lamp/">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@400;600;700&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&display=swap">
+<link rel="stylesheet" href="/assets/style.css?v=d66d7ac8">
+</head>
+<body>
+<a class="skip" href="#main">Aller au contenu</a>
+<header class="top">
+  <div class="wrap">
+    <a class="brand" href="/fr/">Logan Riley</a>
+    <nav aria-label="Principale"><a href="/fr/">Accueil</a><a href="/fr/projects/" aria-current="page">Projets</a><a href="/fr/academics/">Parcours scolaire</a><a href="/fr/outreach/">Rayonnement</a><a href="/fr/activities/">Activités</a><a href="/fr/research/">Intérêts de recherche</a><a href="/fr/contact/">Contact</a></nav>
+    <div class="lang" role="group" aria-label="Langue"><a href="/projects/lamp/" lang="en" hreflang="en">EN</a><span class="sep" aria-hidden="true">|</span><a href="/fr/projects/lamp/" lang="fr" hreflang="fr" aria-current="true">FR</a></div>
+  </div>
+</header>
+<main id="main"><div class="wrap">
+
+<div class="page-head">
+  <p class="eyebrow">Projet · 2025</p>
+  <h1>Lampe à DEL interactive issue d’un scan 3D</h1>
+  <p class="lead">Un cadeau d’anniversaire pour ma sœur, qui se teint souvent les cheveux. La lampe est modelée sur sa tête, et on peut changer la couleur de chaque DEL dans les cheveux.</p>
+</div>
+<div class="split solo">
+  
+  <div>
+    <h3 style="margin-top:0">Le modèle</h3>
+    <p>Après mon premier projet, je voulais essayer les formes organiques. J’ai créé un Gaussian splat de sa tête, un modèle 3D que le logiciel estime à partir de centaines de photos, puis je l’ai nettoyé et j’ai sculpté les cheveux dans Blender. Le visage et le haut du corps sont imprimés en blanc opaque et seuls les cheveux en blanc translucide, pour que la lumière les traverse.</p>
+    <h3>L’électronique</h3>
+    <p>Il y a 50 DEL adressables dans les cheveux, pilotées avec FastLED. Le microcontrôleur héberge, sur le Wi-Fi propre à la lampe, une page où l’on règle la couleur de chaque DEL ou choisit un préréglage (vague, feu, arc-en-ciel, poursuite). Un capteur capacitif l’allume et l’éteint au toucher.</p>
+  </div>
+</div>
+
+</div></main>
+<footer class="foot"><div class="wrap"><span>Logan Riley · Génie des sciences, Université de Toronto</span><span><a href="mailto:logan.riley@mail.utoronto.ca">logan.riley@mail.utoronto.ca</a></span></div></footer>
+<script src="/assets/site.js?v=bef6917c" defer></script>
+<script>
+if (window.matchMedia && matchMedia('(prefers-reduced-motion: reduce)').matches) {
+  document.querySelectorAll('video[autoplay]').forEach(function (v) { v.removeAttribute('autoplay'); v.pause(); v.controls = true; });
+}
+</script>
+</body>
+</html>

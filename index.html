@@ -1,32 +1,77 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Logan Riley</title>
-  <style>
-    html, body { height: 100%; margin: 0; }
-    body {
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      background: #fafaf8;
-      color: #1a1a1a;
-      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
-    }
-    main { padding: 0 24px; max-width: 36rem; }
-    h1 { font-size: 2rem; font-weight: 600; margin: 0 0 0.5rem; letter-spacing: -0.01em; }
-    p { font-size: 1.05rem; line-height: 1.5; margin: 0; color: #555; }
-    @media (prefers-color-scheme: dark) {
-      body { background: #141414; color: #f0f0ee; }
-      p { color: #a0a0a0; }
-    }
-  </style>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Logan Riley</title>
+<meta name="description" content="Logan Riley, first-year Engineering Science student at the University of Toronto. Mechatronics projects, research interests, outreach.">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="canonical" href="https://loganriley.ca/">
+<link rel="alternate" hreflang="en" href="https://loganriley.ca/">
+<link rel="alternate" hreflang="fr" href="https://loganriley.ca/fr/">
+<link rel="alternate" hreflang="x-default" href="https://loganriley.ca/">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@400;600;700&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&display=swap">
+<link rel="stylesheet" href="/assets/style.css?v=d66d7ac8">
 </head>
 <body>
-  <main>
-    <h1>Logan Riley</h1>
-    <p>Engineering Science student at the University of Toronto — site coming soon.</p>
-  </main>
+<a class="skip" href="#main">Skip to content</a>
+<header class="top">
+  <div class="wrap">
+    <a class="brand" href="/">Logan Riley</a>
+    <nav aria-label="Main"><a href="/" aria-current="page">Home</a><a href="/projects/">Projects</a><a href="/academics/">Academics</a><a href="/outreach/">Outreach</a><a href="/activities/">Activities</a><a href="/research/">Research interests</a><a href="/contact/">Contact</a></nav>
+    <div class="lang" role="group" aria-label="Language"><a href="/" lang="en" hreflang="en" aria-current="true">EN</a><span class="sep" aria-hidden="true">|</span><a href="/fr/" lang="fr" hreflang="fr">FR</a></div>
+  </div>
+</header>
+<main id="main"><div class="wrap">
+
+<div class="hero">
+  <div>
+    <p class="eyebrow">Engineering Science, University of Toronto</p>
+    <h1>I design, build and program mechatronic systems.</h1>
+    <p class="lead">I'm Logan Riley, a first-year Engineering Science student at the University of Toronto. I'm passionate about robotics and mechatronics, and over the past two years I've designed and built a <a href="/projects/phase/">trading card sorter</a>, a <a href="/projects/lamp/">3D-scanned interactive LED lamp</a> and, with a friend, a <a href="/projects/jukebox/">Minecraft jukebox</a>. My work has been recognized at regional and provincial science fairs, and I'm looking for opportunities to apply and extend these skills in research.</p>
+    <p><a href="/projects/">See the projects<span class="arrow" aria-hidden="true"> →</span></a></p>
+  </div>
+  <figure class="portrait"><img src="/media/headshot.jpg?v=1793307204-52612" alt="Portrait of Logan Riley" loading="lazy"></figure>
+</div>
+
+<h2>P.H.A.S.E.</h2>
+<div class="split">
+  <div>
+    <p class="lead">A machine that sorts Magic: The Gathering cards. I built it alone over a calendar year: I modelled and printed the parts, designed and soldered the circuits, and wrote the software.</p>
+    <p>It identifies each card with perceptual hashing, looks up the price, and sorts the card into a high-value, low-value or unidentified box. <a href="/projects/phase/">Read how it works<span class="arrow" aria-hidden="true"> →</span></a>.</p>
+    <div class="stats"><div class="stat"><b>550+</b><span>hours of work</span></div><div class="stat"><b>13,000</b><span>lines of code, 5 languages</span></div><div class="stat"><b>60</b><span>unique 3D printed parts</span></div><div class="stat"><b>110,000+</b><span>card printings in its database</span></div></div>
+  </div>
+  <div>
+    <figure><video src="/media/phase-release.mp4?v=1793307206-955872" poster="/media/phase-release.jpg?v=1793307206-47968" muted loop autoplay playsinline preload="metadata" aria-label="P.H.A.S.E. card release mechanism (sped up)"></video><figcaption>The card release mechanism, sped up.</figcaption></figure>
+  </div>
+</div>
+<ul class="plain">
+  <li><strong>Gold Medal</strong>, Expo-sciences Estrie regional finals, collegiate division (March 2026)</li>
+  <li><strong>Ubisoft Prize</strong>, Super Expo-sciences Hydro-Québec provincial finals (April 2026)</li>
+  <li><strong>CGI Prize for Engineering, Software and Robotics</strong> and <strong>Prix du Réseau ACTION TI</strong>, collegiate division (regional, March 2026)</li>
+</ul>
+
+<h2>Other builds</h2>
+<ul class="plain">
+  <li><a href="/projects/jukebox/"><strong>Minecraft jukebox</strong><span class="arrow" aria-hidden="true"> →</span></a>, with my friend Mateo. 3D printed discs carry NFC chips that tell it what to play. Open source.</li>
+  <li><a href="/projects/lamp/"><strong>3D-scanned interactive LED lamp</strong><span class="arrow" aria-hidden="true"> →</span></a>. A birthday gift, sculpted from a 3D scan, with 50 addressable LEDs you control from a web page it hosts itself.</li>
+</ul>
+
+<h2>Sharing it</h2>
+<p>Showing someone else something I love is its own kind of fun. I've presented <a href="/projects/phase/">P.H.A.S.E.</a> to judges and the public at science fairs and worked as a tutor. Looking ahead, I want to keep sharing robotics with other people. <a href="/outreach/">More on outreach</a>.</p>
+
+<h2>Academics</h2>
+<p>I finished the Natural Science DEC at Champlain College Lennoxville with an overall average of about 96% across 29 graded courses and an R-score of 36.289 (Quebec's university admission score; the provincial average is 25). I made the Dean's List every semester, graduated top of my program, and finished second in the graduating class across all programs. <a href="/academics/">Details and courses</a>.</p>
+
+</div></main>
+<footer class="foot"><div class="wrap"><span>Logan Riley · Engineering Science, University of Toronto</span><span><a href="mailto:logan.riley@mail.utoronto.ca">logan.riley@mail.utoronto.ca</a></span></div></footer>
+<script src="/assets/site.js?v=bef6917c" defer></script>
+<script>
+if (window.matchMedia && matchMedia('(prefers-reduced-motion: reduce)').matches) {
+  document.querySelectorAll('video[autoplay]').forEach(function (v) { v.removeAttribute('autoplay'); v.pause(); v.controls = true; });
+}
+</script>
 </body>
 </html>

@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Jukebox Minecraft · Logan Riley</title>
+<meta name="description" content="Un vrai jukebox Minecraft avec des disques NFC imprimés en 3D, construit avec mon ami Mateo. Libre d’accès.">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="canonical" href="https://loganriley.ca/fr/projects/jukebox/">
+<link rel="alternate" hreflang="en" href="https://loganriley.ca/projects/jukebox/">
+<link rel="alternate" hreflang="fr" href="https://loganriley.ca/fr/projects/jukebox/">
+<link rel="alternate" hreflang="x-default" href="https://loganriley.ca/projects/jukebox/">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@400;600;700&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&display=swap">
+<link rel="stylesheet" href="/assets/style.css?v=d66d7ac8">
+</head>
+<body>
+<a class="skip" href="#main">Aller au contenu</a>
+<header class="top">
+  <div class="wrap">
+    <a class="brand" href="/fr/">Logan Riley</a>
+    <nav aria-label="Principale"><a href="/fr/">Accueil</a><a href="/fr/projects/" aria-current="page">Projets</a><a href="/fr/academics/">Parcours scolaire</a><a href="/fr/outreach/">Rayonnement</a><a href="/fr/activities/">Activités</a><a href="/fr/research/">Intérêts de recherche</a><a href="/fr/contact/">Contact</a></nav>
+    <div class="lang" role="group" aria-label="Langue"><a href="/projects/jukebox/" lang="en" hreflang="en">EN</a><span class="sep" aria-hidden="true">|</span><a href="/fr/projects/jukebox/" lang="fr" hreflang="fr" aria-current="true">FR</a></div>
+  </div>
+</header>
+<main id="main"><div class="wrap">
+
+<div class="page-head">
+  <p class="eyebrow">Projet · fin 2025 – début 2026 · avec Mateo</p>
+  <h1>Jukebox Minecraft</h1>
+  <p class="lead">Un vrai jukebox. Chaque disque imprimé en 3D contient une puce NFC, du même genre que celle d’une carte de crédit, qui indique au jukebox quelle chanson jouer.</p>
+</div>
+<a class="callout" href="https://ark-stem.com/projects/de07c708-7a02-42df-a5f3-296508cf831a" target="_blank" rel="noopener noreferrer"><span class="label">ARK</span><span class="callout-text">Libre d’accès : fichiers 3D, code, schéma du circuit et liste d’achats sur la page ARK de Mateo (en anglais)</span><span class="arrow" aria-hidden="true">→</span></a>
+<div class="split">
+  <figure><div class="embed"><iframe src="https://www.youtube-nocookie.com/embed/uSnwOKt5Ehg" title="Vidéo de Mateo sur le jukebox Minecraft" allow="accelerometer; encrypted-media; picture-in-picture" referrerpolicy="strict-origin-when-cross-origin" loading="lazy" allowfullscreen></iframe></div><figcaption>Vidéo de Mateo (MateoTechLab sur YouTube, en anglais) sur le jukebox et son histoire. <a href="https://youtu.be/uSnwOKt5Ehg" target="_blank" rel="noopener noreferrer">Regarder sur YouTube</a>.</figcaption></figure>
+  <div>
+    <h3 style="margin-top:0">Mon rôle</h3>
+    <p>C’était un projet d’équipe avec mon meilleur ami Mateo (<a href="https://www.youtube.com/@MateoTechLab" target="_blank" rel="noopener noreferrer">MateoTechLab</a> sur YouTube). J’ai conçu les composants structurels internes. Mateo et moi avons écrit le code et construit le circuit ensemble, du début à la fin.</p>
+    <h3>Comment ça fonctionne</h3>
+    <p>Un Arduino Uno lit la puce NFC du disque, repère la chanson qui lui correspond et demande à un DFPlayer Mini de la jouer depuis une carte SD. Un mécanisme à servomoteur abaisse le disque pour le lire, puis l’éjecte. Il y a des DEL d’état et un bouton de volume, et tout le circuit fonctionne sur une plaque d’essai : même sans expérience de soudure, on peut en construire un.</p>
+  </div>
+</div>
+<h2>Libre d’accès</h2>
+<p>Les fichiers STL, le code Arduino, le schéma du circuit et un document de présentation sont à télécharger gratuitement sur <a href="https://ark-stem.com/projects/de07c708-7a02-42df-a5f3-296508cf831a" target="_blank" rel="noopener noreferrer">la page ARK de Mateo</a>. Certaines parties du modèle sont parties de conceptions de Fearless3DPrints et ont été modifiées pour s’y adapter. Des trousses à assembler sont prévues, avec une liste d’attente, mais elles ne sont pas encore offertes.</p>
+<p>Collaborer a exigé beaucoup plus de documentation que ce à quoi j’étais habitué, et partager une réalisation avec un ami que je connais depuis plus de dix ans en valait la peine. L’histoire derrière le projet est racontée dans <a href="https://youtu.be/uSnwOKt5Ehg" target="_blank" rel="noopener noreferrer">la vidéo de Mateo</a> (en anglais).</p>
+
+</div></main>
+<footer class="foot"><div class="wrap"><span>Logan Riley · Génie des sciences, Université de Toronto</span><span><a href="mailto:logan.riley@mail.utoronto.ca">logan.riley@mail.utoronto.ca</a></span></div></footer>
+<script src="/assets/site.js?v=bef6917c" defer></script>
+<script>
+if (window.matchMedia && matchMedia('(prefers-reduced-motion: reduce)').matches) {
+  document.querySelectorAll('video[autoplay]').forEach(function (v) { v.removeAttribute('autoplay'); v.pause(); v.controls = true; });
+}
+</script>
+</body>
+</html>
